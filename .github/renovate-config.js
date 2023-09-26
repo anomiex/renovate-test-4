@@ -12,7 +12,6 @@ module.exports = {
 	allowedPostUpgradeCommands: [ '.github/files/renovate-post-upgrade-run.sh' ],
 	postUpgradeTasks: {
 		commands: [ '.github/files/renovate-post-upgrade-run.sh {{{branchName}}}' ],
-                fileFilters: [ '**/*' ],
 		executionMode: 'branch',
 	},
 
