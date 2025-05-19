@@ -1,3 +1,3 @@
 #!/bin/bash
 
-# Do nothing.
+git status
