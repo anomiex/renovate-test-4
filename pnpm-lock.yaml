@@ -9,16 +9,18 @@ importers:
   .:
     dependencies:
       chalk:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.4.1
+        version: 5.4.1
 
   packages/a: {}
 
   packages/b: {}
 
+  packages/c: {}
+
 packages:
 
-  /chalk@5.0.0:
-    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
+  /chalk@5.4.1:
+    resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
