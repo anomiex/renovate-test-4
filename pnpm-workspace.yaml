@@ -1,2 +1,5 @@
 packages:
   - 'packages/*'
+
+minimumReleaseAge: 525600
+minimumReleaseAgeExclude:
