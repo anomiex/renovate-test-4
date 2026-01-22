@@ -3,3 +3,6 @@ packages:
 
 minimumReleaseAge: 525600
 minimumReleaseAgeExclude:
+  # Renovate security update: lodash@4.17.23
+  # Renovate security update: lodash@4.17.23
+  - lodash@4.17.23 || 4.17.23
