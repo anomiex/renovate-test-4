@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
@@ -6,19 +6,25 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  packages/a:
     dependencies:
-      chalk:
-        specifier: 5.0.0
-        version: 5.0.0
+      lodash:
+        specifier: 4.17.21
+        version: 4.17.21
 
-  packages/a: {}
-
-  packages/b: {}
+  packages/b:
+    dependencies:
+      lodash:
+        specifier: ^4.17.14
+        version: 4.17.21
 
 packages:
 
-  /chalk@5.0.0:
-    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
-    dev: false
+  lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+snapshots:
+
+  lodash@4.17.21: {}

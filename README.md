@@ -1,1 +1,1 @@
-This is a minimal reproduction repo for https://github.com/renovatebot/renovate/issues/23528
+This is a minimal reproduction repo for https://github.com/renovatebot/renovate/issues/40610
